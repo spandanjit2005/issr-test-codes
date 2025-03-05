@@ -45,3 +45,5 @@ plt.xlabel('Sentiment')
 plt.ylabel('Number of Posts')
 plt.legend(title='Risk Level')
 plt.savefig('script-2.png')
+
+df.to_csv('issr-tast-2.csv')
